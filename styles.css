@@ -33,6 +33,10 @@ nav {
     border-bottom: solid;
 }
 
+.full {
+    display: none;
+}
+
 #contact {
     text-align: center;
     padding: 40px;
@@ -109,16 +113,6 @@ footer {
   }
 
 
-@media (min-width: 320px) {
-    .full {
-        display: none;
-      }
-    .container1 {
-        margin-top: 10px;
-    }
-
-}
-
 @media (min-width: 768px) {
     .top-nav {
           margin-top: 0;
@@ -158,6 +152,10 @@ footer {
     .full {
         display: inline-block;
         margin-left: 20px;
+    }
+
+    .top {
+        display: none;
     }
 }
 
