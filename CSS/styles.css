@@ -99,7 +99,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-top: auto;
-    word-spacing: .5em;
     height: 100px;
   }
 
@@ -146,7 +145,11 @@ footer {
     }
 
     .top {
-        display: none;}
+        display: none;
+    }
+    
+    footer {
+        word-spacing: .5em}
 }
 
 
